@@ -1,0 +1,30 @@
+.home1ServicesTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.home1ServicesTopHeading {
+  color: #233d63;
+  font-size: 44px;
+  font-weight: 600;
+}
+.home1ServicesTopDetail {
+  width: 50%;
+  text-align: center;
+  color: #8796ac;
+  font-size: 16px;
+  font-weight: 300;
+}
+.home1ServicesBottom {
+  padding: 10px 10px 50px 10px;
+}
+.home1ServicesBottomRow1 {
+  display: flex;
+  justify-content: space-between;
+}
+.home1ServicesBottomRow2 {
+  display: flex;
+  justify-content: space-between;
+}

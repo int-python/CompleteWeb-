@@ -1,0 +1,103 @@
+.client {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+.client_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.client_topHeading {
+  color: #233d63;
+  font-size: 44px;
+  font-weight: 600;
+}
+.client_topDetail {
+  text-align: center;
+  color: #8796ac;
+  font-size: 16px;
+  font-weight: 300;
+  width: 50vw;
+}
+.client_bottom {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  margin-right: -20px;
+}
+.client_bottomCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 1px rgba(176, 176, 176, 0.3);
+  padding: 35px 30px;
+  margin-right: 30px;
+}
+.client_bottomCardReview {
+  color: #8796ac;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+.client_bottomCardImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.client_bottomCardName {
+  padding-top: 20px;
+  color: #233d63;
+  font-size: 18px;
+  font-weight: 500;
+}
+.client_bottomCardPro {
+  color: #7a8390;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: -14px;
+}
+@media (max-width: 900px) {
+  .client {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  .client_topHeading {
+    font-size: 38px;
+  }
+  .client_topDetail {
+    font-size: 16px;
+    width: 90vw;
+  }
+}
+@media (max-width: 700px) {
+  .client_bottom {
+    padding-top: 50px;
+    flex-direction: column;
+    padding-left: 9%;
+    margin-right: -7%;
+  }
+  .client_bottomCard {
+    width: 85%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .client {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .client_topHeading {
+    font-size: 30px;
+  }
+  .client_topDetail {
+    font-size: 14px;
+    width: 90vw;
+  }
+}

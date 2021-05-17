@@ -1,0 +1,46 @@
+.services_Why {
+  background-color: #4a7ced;
+}
+.services_WhyMain {
+  padding: 50px 0;
+}
+.services_Why_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services_Why_topHeading {
+  color: #ffbe56;
+  font-weight: 600;
+  font-size: 44px;
+}
+.services_Why_topDetail {
+  width: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+.services_Why_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.services_Why_bottomLeft {
+  position: relative;
+  width: 50%;
+  height: auto;
+}
+.services_Why_bottomLeftImg {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  padding: 20px 20px;
+}
+.services_Why_bottomRight {
+  width: 50%;
+  padding: 10px 30px;
+  margin-left: 20px;
+}

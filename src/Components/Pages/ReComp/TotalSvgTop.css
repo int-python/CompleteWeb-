@@ -1,0 +1,9 @@
+.totalSvgTop_svg {
+  width: calc(100% + 1.3px);
+  height: 52px;
+}
+.totalSvgTop_Path {
+  fill: #fff;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}

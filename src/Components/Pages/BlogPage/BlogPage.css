@@ -1,0 +1,24 @@
+.blogPage_main {
+  display: flex;
+  justify-content: space-between;
+}
+.blogPage_mainLeft {
+  width: 65%;
+}
+.blogPage_mainLeftButton {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  margin: 50px auto;
+  border: transparent;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ffbe56;
+  border-radius: 40px;
+  padding: 15px 40px;
+}
+.blogPage_mainRight {
+  width: 35%;
+  padding-left: 60px;
+}

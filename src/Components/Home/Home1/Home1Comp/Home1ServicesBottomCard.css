@@ -1,0 +1,25 @@
+.home1ServicesBottomCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  position: relative;
+  text-align: center;
+  padding: 40px;
+}
+.home1ServicesBottomCardImg {
+  width: 40%;
+}
+.home1ServicesBottomCardHeading {
+  color: #233d63;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2em;
+}
+.home1ServicesBottomCardDetail {
+  color: #8796ac;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}

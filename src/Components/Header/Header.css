@@ -1,0 +1,50 @@
+.header {
+  padding-top: 20px;
+  background: linear-gradient(320deg, #30b2ea 0%, #5355ee 100%);
+}
+.header_leftLogo {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  margin-left: -7px;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 25px;
+}
+.nav-link:hover {
+  color: #ffbe56 !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  -webkit-animation-name: Akshay;
+  animation-name: Akshay;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+@-webkit-keyframes Akshay {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes Akshay {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

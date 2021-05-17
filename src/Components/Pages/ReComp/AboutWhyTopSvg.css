@@ -1,0 +1,33 @@
+.AboutWhyTopSvg_divSvg {
+  width: calc(180% + 1.3px);
+  overflow: hidden;
+  height: 130px;
+  margin-left: -500px;
+}
+.AboutWhyTopSvg_divSvgPath {
+  transform-origin: center;
+  transform: rotateY(0deg);
+}
+.AboutWhyTopSvg_divBottomSvg {
+  width: calc(180% + 1.3px);
+  overflow: hidden;
+  height: 130px;
+  margin-left: -500px;
+}
+
+@media (max-width: 900px) {
+  .AboutWhyTopSvg_divSvg {
+    height: 100px;
+  }
+  .AboutWhyTopSvg_divBottomSvg {
+    height: 100px;
+  }
+}
+@media (max-width: 700px) {
+  .AboutWhyTopSvg_divSvg {
+    height: 60px;
+  }
+  .AboutWhyTopSvg_divBottomSvg {
+    height: 60px;
+  }
+}

@@ -1,0 +1,39 @@
+.PageTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.PageTop_heading {
+  color: #ffbe56;
+  font-size: 60px;
+  font-weight: 600;
+}
+.PageTop_linkIcon {
+  color: #fff;
+  padding-right: 10px;
+}
+.PageTop_link a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 10px;
+}
+@media (max-width: 900px) {
+  .PageTop {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  .PageTop_heading {
+    font-size: 50px;
+  }
+}
+@media (max-width: 420px) {
+  .PageTop_heading {
+    font-size: 35px;
+  }
+  .PageTop_link a {
+    font-size: 12px;
+    padding-right: 0px;
+  }
+}

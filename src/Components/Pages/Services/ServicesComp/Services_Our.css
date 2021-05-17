@@ -1,0 +1,30 @@
+.services_Our {
+  padding: 100px 0;
+}
+.services_OurTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services_OurTopHeading {
+  color: #233d63;
+  font-size: 44px;
+  font-weight: 600;
+}
+.services_OurTopDetail {
+  width: 50%;
+  text-align: center;
+  color: #8796ac;
+  font-size: 16px;
+  font-weight: 300;
+}
+.services_OurBottom {
+  padding-top: 50px;
+}
+.services_OurBottomRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  margin-right: -40px;
+}

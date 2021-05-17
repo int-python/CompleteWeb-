@@ -1,0 +1,30 @@
+.ourTeamPeople {
+  padding: 100px 0;
+}
+.ourTeamPeople_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ourTeamPeople_topHeading {
+  color: #233d63;
+  font-size: 44px;
+  font-weight: 600;
+}
+.ourTeamPeople_topDetail {
+  text-align: center;
+  color: #8796ac;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.ourTeamPeople_Bottom {
+  padding: 30px 10px;
+  margin-right: -40px;
+}
+.ourTeamPeople_BottomRow {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}

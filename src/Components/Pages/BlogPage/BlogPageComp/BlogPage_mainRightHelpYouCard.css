@@ -1,0 +1,36 @@
+.blogPage_mainRightHelpYouCard {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  box-shadow: 0px 0px 30px 0px rgba(186, 184, 191, 0.3);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 40px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.blogPage_mainRightHelpYouCardHeading {
+  color: #233d63;
+  font-size: 22px;
+  line-height: 1.35em;
+  font-weight: 600;
+}
+.blogPage_mainRightHelpYouCardDetail {
+  color: #8796ac;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.blogPage_mainRightHelpYouCardButton {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ffbe56;
+  border-style: solid;
+  border-color: #ffbe56;
+  border-radius: 40px;
+  padding: 15px 40px;
+}

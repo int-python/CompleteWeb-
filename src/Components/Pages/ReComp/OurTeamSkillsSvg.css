@@ -1,0 +1,17 @@
+.ourTeamSkillsSvg_div {
+  transform: rotate(0deg);
+  left: 0;
+  width: 100%;
+}
+.ourTeamSkillsSvg_divSvg {
+  width: calc(180% + 1.3px);
+  overflow: hidden;
+  height: 130px;
+  line-height: 0;
+  margin-left: -500px;
+}
+.ourTeamSkillsSvg_divSvgPath {
+  fill: #fff;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}

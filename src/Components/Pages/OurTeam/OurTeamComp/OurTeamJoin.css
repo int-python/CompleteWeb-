@@ -1,0 +1,41 @@
+.ourTeamJoin {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 10px;
+}
+.ourTeamJoinLeft {
+  width: 50%;
+  padding: 100px 70px 100px 0px;
+}
+.ourTeamJoinLeftHeading {
+  color: #233d63;
+  font-size: 44px;
+  font-weight: 600;
+}
+.ourTeamJoinLeftDetail {
+  text-align: left;
+  color: #8796ac;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.ourTeamJoinLeftButton {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #ffbe56;
+  border-radius: 40px;
+  padding: 15px 40px;
+}
+.ourTeamJoinRight {
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+.ourTeamJoinRightImg {
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  right: 0;
+}

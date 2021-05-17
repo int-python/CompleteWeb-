@@ -1,0 +1,62 @@
+.ourTeamSkills {
+  background-color: #4a7ced;
+}
+.ourTeamSkills_div {
+  transform: rotate(0deg);
+  left: 0;
+  width: 100%;
+}
+.ourTeamSkills_divSvg {
+  width: calc(180% + 1.3px);
+  overflow: hidden;
+  height: 130px;
+  line-height: 0;
+  margin-left: -500px;
+}
+.ourTeamSkills_divSvgPath {
+  fill: #fff;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}
+.ourTeamSkills_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 10px;
+}
+.ourTeamSkills_mainLeft {
+  width: 50%;
+  position: relative;
+  height: auto;
+}
+.ourTeamSkills_mainLeftImg {
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+}
+.ourTeamSkills_mainRight {
+  width: 50%;
+  padding: 30px 0px 30px 10px;
+}
+.ourTeamSkills_mainRightHeading {
+  color: #ffbe56;
+  font-size: 44px;
+  font-weight: 600;
+}
+.ourTeamSkills_mainRightDetail {
+  text-align: left;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+.ourTeamSkills_mainRightBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.ourTeamSkills_mainRightBottomLeft,
+.ourTeamSkills_mainRightBottomRight {
+  width: 50%;
+  padding-right: 30px;
+}
+.ourTeamSkills_mainRightBottomBarHeading {
+  color: #ffffff;
+}

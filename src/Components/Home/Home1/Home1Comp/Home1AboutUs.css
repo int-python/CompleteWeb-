@@ -1,0 +1,88 @@
+.home1AboutUs {
+  background-color: #4a7ced;
+}
+.home1AboutUs_main {
+  padding: 50px 10px;
+}
+.home1AboutUs_div {
+  transform: rotate(180deg);
+}
+.home1AboutUs_divSvg {
+  width: calc(100% + 1.3px);
+  height: 120px;
+}
+.home1AboutUs_divSvgPath {
+  fill: #fff;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}
+.home1AboutUs_main {
+  display: flex;
+  justify-content: space-between;
+}
+.home1AboutUs_mainLeft {
+  width: 47.984%;
+  padding-bottom: 20px;
+}
+.home1AboutUs_mainLeftHeading {
+  color: #ffbe56;
+  font-size: 44px;
+  font-weight: 600;
+}
+.home1AboutUs_mainLeftDetail {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+.home1AboutUs_mainLeftList {
+  padding-bottom: 20px;
+}
+.home1AboutUs_mainLeftItems {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.home1AboutUs_mainLeftItemsIcon {
+  color: #ffbe56;
+  font-size: 15px;
+  margin-right: 7px;
+}
+.home1AboutUs_mainLeftButton {
+  font-weight: 400;
+  background-color: #ffbe56;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 40px;
+  margin-top: 20px;
+  padding: 12px 40px;
+}
+.home1AboutUs_mainLeftPlayButton {
+  padding-left: 20px;
+}
+.home1AboutUs_mainLeftPlayButtonIcon {
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #ffbe56;
+  border-radius: 50%;
+  padding: 18px;
+  overflow: visible;
+}
+.home1AboutUs_mainLeftPlayButtonRightText {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+.home1AboutUs_mainRight {
+  width: 52.016%;
+  position: relative;
+  height: auto;
+}
+.home1AboutUs_mainRightImg {
+  position: absolute;
+  height: 100%;
+  right: 0;
+}

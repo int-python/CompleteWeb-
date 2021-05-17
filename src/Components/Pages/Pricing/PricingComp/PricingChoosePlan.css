@@ -1,0 +1,24 @@
+.pricingChoosePlan_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pricingChoosePlan_topHeading {
+  color: #233d63;
+  font-size: 44px;
+  font-weight: 600;
+}
+.pricingChoosePlan_topDetail {
+  width: 50%;
+  text-align: center;
+  color: #8796ac;
+  font-size: 16px;
+  font-weight: 300;
+}
+.pricingChoosePlan_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10px;
+  margin-right: -50px;
+}

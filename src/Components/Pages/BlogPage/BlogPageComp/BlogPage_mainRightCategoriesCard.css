@@ -1,0 +1,31 @@
+.blogPage_mainRightCategoriesCard {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  box-shadow: 0px 0px 30px 0px rgba(186, 184, 191, 0.3);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 40px;
+  margin-top: 50px;
+}
+.blogPage_mainRightCategoriesCardHeading {
+  color: #233d63;
+  font-size: 22px;
+  font-weight: 600;
+}
+.blogPage_mainRightCategoriesCardList {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.blogPage_mainRightCategoriesCardListItem {
+  text-decoration: none;
+  color: #233d63;
+  cursor: pointer;
+}
+.blogPage_mainRightCategoriesCardListItem:hover {
+  color: #ffbe56;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
