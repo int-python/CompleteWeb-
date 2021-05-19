@@ -1,0 +1,31 @@
+.singleServiceSubService_ {
+  padding-top: 300px;
+  padding-bottom: 100px;
+}
+.singleServiceSubService_Top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.singleServiceSubService_TopHeading {
+  color: #233d63;
+  font-size: 44px;
+  font-weight: 600;
+}
+.singleServiceSubService_TopDetail {
+  width: 50%;
+  text-align: center;
+  color: #8796ac;
+  font-size: 16px;
+  font-weight: 300;
+}
+.singleServiceSubService_Bottom {
+  padding-top: 50px;
+}
+.singleServiceSubService_BottomRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  margin-right: -40px;
+}

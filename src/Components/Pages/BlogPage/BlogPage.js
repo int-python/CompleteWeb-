@@ -24,7 +24,8 @@ function BlogPage() {
               Name="John Doe"
               Date="May 15, 2021"
               Detail="Home Home 1 Home 2 Pages About Us Our Team Pricing 404 Services Blog Single Post Contact Contact 1 Contact 2 X Blog Home Blog Why Digital Marketing is important? Why Digital Marketing is important? John Doe August 5, 2020 Far far away, behind the word mountains, far from the..."
-            />
+          ><button className="blog_mainBottomCardButton">Read More</button></BlogMainBottomCard>
+            
           </div>
           <div style={{ marginBottom: "50px" }}>
           <BlogMainBottomCard
@@ -33,7 +34,8 @@ function BlogPage() {
             Name="John Doe"
             Date="May 15, 2021"
             Detail="Home Home 1 Home 2 Pages About Us Our Team Pricing 404 Services Blog Single Post Contact Contact 1 Contact 2 X Blog Home Blog Why Digital Marketing is important? Why Digital Marketing is important? John Doe August 5, 2020 Far far away, behind the word mountains, far from the..."
-          />
+            ><button className="blog_mainBottomCardButton">Read More</button></BlogMainBottomCard>
+
           </div>
           <BlogMainBottomCard
             Image="https://templatekit.jegtheme.com/syntra/wp-content/uploads/sites/7/2020/07/Asset-9.png"
@@ -41,7 +43,8 @@ function BlogPage() {
             Name="John Doe"
             Date="May 15, 2021"
             Detail="Home Home 1 Home 2 Pages About Us Our Team Pricing 404 Services Blog Single Post Contact Contact 1 Contact 2 X Blog Home Blog Why Digital Marketing is important? Why Digital Marketing is important? John Doe August 5, 2020 Far far away, behind the word mountains, far from the..."
-          />
+            ><button className="blog_mainBottomCardButton">Read More</button></BlogMainBottomCard>
+
         <button className="blogPage_mainLeftButton">Load More</button>
         </div>
         <div className="blogPage_mainRight">

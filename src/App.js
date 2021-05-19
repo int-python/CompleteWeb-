@@ -17,6 +17,8 @@ import Error from './Components/Pages/Error/Error';
 import Services from './Components/Pages/Services/Services';
 import BlogPage from './Components/Pages/BlogPage/BlogPage';
 import Contact1 from './Components/Pages/Contact/Contact1/Contact1';
+import "react-modal-video/scss/modal-video.scss";
+import SingleService from './Components/Pages/Services/ServicesComp/SingleService';
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
           <Route exact path='/services' component={Services} />
           <Route exact path='/blogs' component={BlogPage} />
           <Route exact path='/contact1' component={Contact1} />
+          <Route exact path='/singleService' component={SingleService} />
         </Switch>
         <Footer />
       </Router>

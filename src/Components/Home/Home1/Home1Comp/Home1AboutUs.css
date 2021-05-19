@@ -57,9 +57,14 @@
   border-radius: 40px;
   margin-top: 20px;
   padding: 12px 40px;
+  margin-right: 20px;
 }
 .home1AboutUs_mainLeftPlayButton {
-  padding-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
 }
 .home1AboutUs_mainLeftPlayButtonIcon {
   width: 50px;
@@ -69,6 +74,41 @@
   border-radius: 50%;
   padding: 18px;
   overflow: visible;
+}
+.home1AboutUs_mainLeftPlayButton:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: #ffbe56 solid 4px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.home1AboutUs_mainLeftPlayButton:hover:before {
+  -webkit-animation-name: AkPulse;
+  animation-name: AkPulse;
+}
+@-webkit-keyframes AkPulse {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+@keyframes AkPulse {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
 }
 .home1AboutUs_mainLeftPlayButtonRightText {
   color: #ffffff;
@@ -85,4 +125,8 @@
   position: absolute;
   height: 100%;
   right: 0;
+}
+.modal-video {
+  position: absolute;
+  z-index: 10;
 }

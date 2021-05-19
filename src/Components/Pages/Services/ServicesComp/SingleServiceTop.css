@@ -1,0 +1,100 @@
+.singleServiceTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+.singleServiceTopHeading {
+  color: #ffbe56;
+  font-size: 70px;
+  font-weight: 600;
+}
+.singleServiceTopDetail {
+  width: 50%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+.singleServiceTopButtons {
+  display: flex;
+  justify-content: space-between;
+}
+.singleServiceTopButtons_LearnButton {
+  font-weight: 400;
+  background-color: #ffbe56;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 40px;
+  margin-top: 20px;
+  padding: 12px 40px;
+  margin-right: 20px;
+}
+.singleServiceTopButtons_PlayButton {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+}
+.singleServiceTopButtons_PlayButton:before {
+  content: "";
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: #ffbe56 solid 4px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.singleServiceTopButtons_PlayButton:hover:before {
+  -webkit-animation-name: AkPulse;
+  animation-name: AkPulse;
+}
+@-webkit-keyframes AkPulse {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+@keyframes AkPulse {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+.singleServiceTopButtons_PlayButtonIcon {
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #ffbe56;
+  border-radius: 50%;
+  padding: 18px;
+  overflow: visible;
+  margin-top: 20px;
+}
+.singleServiceTopButtons_PlayButtonRightText {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  padding-left: 10px;
+  margin-top: 33px;
+}
+.singleServiceTopImg {
+  width: 60%;
+  z-index: 1;
+  margin-bottom: -250px;
+}

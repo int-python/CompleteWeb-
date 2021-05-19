@@ -2,10 +2,10 @@ import React from "react";
 import "./Blog.css";
 import BlogMainBottomCard from '../../ReComp/BlogMainBottomCard';
 
-function Blog() {
+function Blog(props) {
   return (
     <div className="blog">
-      <div>
+      {/* <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1000 100"
@@ -23,7 +23,8 @@ function Blog() {
             }}
           ></path>
         </svg>
-      </div>
+      </div> */}
+      {props.children}
       <div className="blog_main">
         <div className="blog_mainTop">
           <p className="blog_mainTopHeading">Latest Blog</p>
@@ -38,19 +39,21 @@ function Blog() {
           Name="John Doe"
           Date="May 15, 2021"
           Detail="Home Home 1 Home 2 Pages About Us Our Team Pricing 404 Services Blog Single Post Contact Contact..."
-          />
+          ><button className="blog_mainBottomCardButton">Read More</button></BlogMainBottomCard>
           <BlogMainBottomCard Image="https://templatekit.jegtheme.com/syntra/wp-content/uploads/sites/7/2020/07/Blog-2.png"
           Title ="What is SEO and How It Works?"
           Name="John Doe"
           Date="May 15, 2021"
           Detail="Home Home 1 Home 2 Pages About Us Our Team Pricing 404 Services Blog Single Post Contact Contact..."
-          />
+          ><button className="blog_mainBottomCardButton">Read More</button></BlogMainBottomCard>
+
           <BlogMainBottomCard Image="https://templatekit.jegtheme.com/syntra/wp-content/uploads/sites/7/2020/07/Asset-9.png"
           Title ="Top 10 Tools for Social Media Management"
           Name="John Doe"
           Date="May 15, 2021"
           Detail="Home Home 1 Home 2 Pages About Us Our Team Pricing 404 Services Blog Single Post Contact Contact..."
-          />
+          ><button className="blog_mainBottomCardButton">Read More</button></BlogMainBottomCard>
+
         </div>
       </div>
     </div>

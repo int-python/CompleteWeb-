@@ -7,6 +7,10 @@
   position: relative;
   text-align: center;
   padding: 40px;
+  text-decoration: none;
+}
+.home1ServicesBottomCard:hover {
+  text-decoration: none;
 }
 .home1ServicesBottomCardImg {
   width: 40%;

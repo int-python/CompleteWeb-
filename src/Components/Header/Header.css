@@ -48,3 +48,12 @@
     transform: scale(1);
   }
 }
+.dropdown-item {
+  padding-left: 25px;
+  font-size: 14px;
+  color: #233d63;
+}
+.dropdown-item:hover {
+  color: #ffbe56;
+  background-color: #fff;
+}

@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home1AboutUs.css";
 import { FaCheckCircle, FaPlay } from "react-icons/fa";
 import PageTopsvg from "../../../Pages/ReComp/PageTopsvg";
+import ModalVideo from 'react-modal-video'
+
 
 function Home1AboutUs() {
+  const [isOpen, setOpen] = useState(false)
+
   return (
     <div className="home1AboutUs">
       {/* <div className="home1AboutUs_div">
@@ -47,8 +51,9 @@ function Home1AboutUs() {
             </p>
         </div>
           <a href="" className="home1AboutUs_mainLeftButton">Learn More</a>
-          <a href="" className="home1AboutUs_mainLeftPlayButton"><FaPlay className="home1AboutUs_mainLeftPlayButtonIcon" /></a>
+          <a onClick={()=> setOpen(true)} className="home1AboutUs_mainLeftPlayButton"><FaPlay className="home1AboutUs_mainLeftPlayButtonIcon" /></a>
             <span className="home1AboutUs_mainLeftPlayButtonRightText">Watch Video</span>
+          <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="PN9nJf-BWvw" onClose={() => setOpen(false)} />
         </div>
         <div className="home1AboutUs_mainRight">
           <img

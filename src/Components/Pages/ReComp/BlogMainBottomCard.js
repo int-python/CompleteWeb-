@@ -16,7 +16,7 @@ function BlogMainBottomCard(props) {
                 <span className="blog_mainBottomCardInfoDate">{props.Date}</span>
             </div>
             <p className="blog_mainBottomCardDetail">{props.Detail}</p>
-            <button className="blog_mainBottomCardButton">Read More</button>
+            {props.children}
           </div>
           
     )

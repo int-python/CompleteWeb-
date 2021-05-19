@@ -1,0 +1,45 @@
+.singleServiceConsultation {
+  background-color: #4a7ced;
+}
+.singleServiceConsultation_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 10px;
+}
+.singleServiceConsultation_mainLeft {
+  position: relative;
+  width: 49%;
+}
+.singleServiceConsultation_mainLeftImg {
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  object-fit: cover;
+}
+.singleServiceConsultation_mainRight {
+  width: 51%;
+  padding: 30px 10px 10px 80px;
+}
+.singleServiceConsultation_mainRightHeading {
+  color: #ffbe56;
+  font-size: 44px;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+.singleServiceConsultation_mainRightDetail {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.singleServiceConsultation_mainRightButton {
+  font-weight: 400;
+  background-color: #ffbe56;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 40px;
+  margin-top: 20px;
+  padding: 12px 40px;
+}

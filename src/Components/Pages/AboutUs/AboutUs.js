@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../Header/Header";
 import AboutWhyTopSvg from "../ReComp/AboutWhyTopSvg";
+import Blogtopsvg from "../ReComp/Blogtopsvg";
 import PageTop from "../ReComp/PageTop";
 import PageTopsvg from "../ReComp/PageTopsvg";
 import TotalSvgTop from "../ReComp/TotalSvgTop";
@@ -27,7 +28,9 @@ function AboutUs() {
       <Total styleBo={{display: 'none'}}>
         <TotalSvgTop />
       </Total>
-      <Blog />
+      <Blog>
+        <Blogtopsvg />
+      </Blog>
     </div>
   );
 }
