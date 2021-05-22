@@ -29,3 +29,42 @@
   padding: 20px 10px;
   margin-right: -40px;
 }
+@media (max-width: 900px) {
+  .singleServiceSubService_ {
+    padding-top: 150px;
+  }
+  .singleServiceSubService_TopHeading {
+    font-size: 38px;
+  }
+  .singleServiceSubService_TopDetail {
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .singleServiceSubService_ {
+    padding-top: 100px;
+  }
+  .singleServiceSubService_TopHeading {
+    font-size: 28px;
+  }
+  .singleServiceSubService_TopDetail {
+    font-size: 14px;
+  }
+}
+@media (max-width: 420px) {
+  .singleServiceSubService_ {
+    padding-top: 100px;
+  }
+  .singleServiceSubService_TopHeading {
+    font-size: 24px;
+  }
+  .singleServiceSubService_TopDetail {
+    font-size: 12px;
+  }
+  .singleServiceSubService_BottomRow {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+  }
+}

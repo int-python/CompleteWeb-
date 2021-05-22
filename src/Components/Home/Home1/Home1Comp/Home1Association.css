@@ -1,0 +1,114 @@
+.home1Association {
+  padding-bottom: 50px;
+}
+.home1Association_mainTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home1Association_mainTopHeading {
+  color: #233d63;
+  font-size: 44px;
+  font-weight: 600;
+}
+.home1Association_mainBottomCollagesHeading {
+  color: #233d63;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.home1Association_mainBottomIndustrialHeading {
+  color: #233d63;
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+.logoSize {
+  height: 100px;
+  width: auto;
+  margin: 0px 25px;
+}
+.marquee {
+  margin: 25px 10px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee--inner {
+  display: block;
+  overflow: hidden;
+  width: 300%;
+  position: absolute;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee--inner:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -162%;
+  }
+}
+
+/*  */
+
+.marquee2 {
+  margin: 25px 10px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee--inner2 {
+  display: block;
+  overflow: hidden;
+  width: 200%;
+  position: absolute;
+  animation: marquee2 20s linear infinite;
+}
+
+.marquee--inner2:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee2 {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -52.4%;
+  }
+}
+@media (max-width: 700px) {
+  .home1Association_mainTopHeading {
+    font-size: 34px;
+  }
+  .logoSize {
+    height: 70px;
+  }
+  .marquee {
+    height: 70px;
+  }
+  .marquee2 {
+    height: 70px;
+  }
+}
+@media (max-width: 420px) {
+  .logoSize {
+    height: 50px;
+  }
+  .marquee {
+    height: 50px;
+  }
+  .marquee2 {
+    height: 50px;
+  }
+}

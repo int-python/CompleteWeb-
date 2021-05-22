@@ -55,6 +55,7 @@
   margin-bottom: 0px;
 }
 .blog_mainBottomCardButton {
+  text-decoration: none;
   border: transparent;
   font-size: 12px;
   font-weight: 400;
@@ -67,7 +68,7 @@
 }
 @media (max-width: 900px) {
   .blog_mainBottomCard {
-    width: 80%;
+    width: 100%;
     margin-bottom: 50px;
   }
 }

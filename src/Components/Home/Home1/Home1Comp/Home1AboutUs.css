@@ -119,14 +119,64 @@
 .home1AboutUs_mainRight {
   width: 52.016%;
   position: relative;
-  height: auto;
 }
 .home1AboutUs_mainRightImg {
   position: absolute;
-  height: 100%;
+  width: 100%;
+  max-width: 550px;
   right: 0;
 }
-.modal-video {
-  position: absolute;
-  z-index: 10;
+
+@media (max-width: 900px) {
+  .home1AboutUs_main {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .home1AboutUs_mainLeft {
+    width: 90%;
+    padding-bottom: 0px;
+    padding-top: 50px;
+  }
+  .home1AboutUs_mainLeftHeading {
+    font-size: 38px;
+  }
+
+  .home1AboutUs_mainRight {
+    width: 70%;
+  }
+  .home1AboutUs_mainRightImg {
+    position: unset;
+    max-width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  .home1AboutUs_mainLeft {
+    padding-top: 20px;
+  }
+  .home1AboutUs_mainLeftHeading {
+    font-size: 24px;
+  }
+  .home1AboutUs_mainLeftDetail {
+    font-size: 12px;
+  }
+  .home1AboutUs_mainLeftList {
+    padding-bottom: 10px;
+  }
+  .home1AboutUs_mainLeftItems {
+    font-size: 12px;
+  }
+  .home1AboutUs_mainLeftButton {
+    font-size: 12px;
+    padding: 8px 20px;
+    margin-right: 10px;
+  }
+  .home1AboutUs_mainLeftPlayButtonIcon {
+    width: 33px;
+    height: 33px;
+    padding: 10px;
+  }
+  .home1AboutUs_mainLeftPlayButtonRightText {
+    font-size: 12px;
+  }
 }

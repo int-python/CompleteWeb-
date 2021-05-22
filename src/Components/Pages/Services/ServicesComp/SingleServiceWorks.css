@@ -27,3 +27,39 @@
   justify-content: space-between;
   padding-top: 50px;
 }
+@media (max-width: 900px) {
+  .singleServiceWorks_topHeading {
+    font-size: 38px;
+  }
+  .singleServiceWorks_topDetail {
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .singleServiceWorks_topHeading {
+    font-size: 34px;
+  }
+  .singleServiceWorks_topDetail {
+    font-size: 14px;
+  }
+  .singleServiceWorks_bottomRow {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 420px) {
+  .singleServiceWorks {
+    padding: 50px 10px;
+  }
+  .singleServiceWorks_topHeading {
+    font-size: 24px;
+  }
+  .singleServiceWorks_topDetail {
+    font-size: 12px;
+  }
+  .singleServiceWorks_bottom {
+    margin-top: 30px;
+  }
+}

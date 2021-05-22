@@ -21,7 +21,6 @@
   font-weight: 600;
 }
 .error_mainRightDetail {
-  text-align: left;
   color: #8796ac;
   font-size: 16px;
   font-weight: 300;
@@ -35,4 +34,53 @@
   background-color: #ffbe56;
   border-radius: 40px;
   padding: 15px 40px;
+}
+@media (max-width: 1020px) {
+  .error_mainLeftMessage {
+    font-size: 200px;
+  }
+}
+@media (max-width: 900px) {
+  .error_main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 100px 0px;
+  }
+  .error_mainLeft {
+    width: 100%;
+  }
+  .error_mainLeftMessage {
+    font-size: 200px;
+  }
+  .error_mainRight {
+    width: 90%;
+    padding: 0 0 0 0;
+  }
+  .error_mainRightHeading {
+    font-size: 34px;
+  }
+  .error_mainRightDetail {
+    font-size: 14px;
+  }
+  .error_mainRightButton {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .error_mainLeftMessage {
+    font-size: 150px;
+  }
+  .error_mainRightHeading {
+    font-size: 24px;
+  }
+  .error_mainRightDetail {
+    font-size: 12px;
+  }
+  .error_mainRightButton {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
 }

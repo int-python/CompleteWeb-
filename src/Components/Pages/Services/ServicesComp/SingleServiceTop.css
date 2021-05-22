@@ -98,3 +98,42 @@
   z-index: 1;
   margin-bottom: -250px;
 }
+@media (max-width: 900px) {
+  .singleServiceTopHeading {
+    font-size: 48px;
+  }
+  .singleServiceTopDetail {
+    width: 90%;
+  }
+  .singleServiceTopImg {
+    margin-bottom: -150px;
+  }
+}
+@media (max-width: 420px) {
+  .singleServiceTopHeading {
+    font-size: 28px;
+  }
+  .singleServiceTopDetail {
+    font-size: 12px;
+  }
+  .singleServiceTopImg {
+    margin-bottom: -100px;
+  }
+  .singleServiceTopButtons_LearnButton {
+    font-size: 14px;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+  }
+  .singleServiceTopButtons_PlayButtonIcon {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    margin-top: 21px;
+  }
+  .singleServiceTopButtons_PlayButton:before {
+    margin-bottom: 20px;
+  }
+  .singleServiceTopButtons_PlayButtonRightText {
+    display: none;
+  }
+}

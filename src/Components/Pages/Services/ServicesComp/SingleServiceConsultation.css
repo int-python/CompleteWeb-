@@ -28,7 +28,6 @@
 }
 .singleServiceConsultation_mainRightDetail {
   color: #ffffff;
-  font-family: "Poppins", Sans-serif;
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 50px;
@@ -42,4 +41,48 @@
   border-radius: 40px;
   margin-top: 20px;
   padding: 12px 40px;
+}
+@media (max-width: 900px) {
+  .singleServiceConsultation_main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
+  }
+  .singleServiceConsultation_mainLeft {
+    width: 70%;
+  }
+  .singleServiceConsultation_mainLeftImg {
+    position: unset;
+    width: 100%;
+    max-width: 100%;
+  }
+  .singleServiceConsultation_mainRight {
+    width: 90%;
+    padding: 0px 0px 0px 0px;
+    margin-top: 50px;
+  }
+  .singleServiceConsultation_mainRightHeading {
+    font-size: 38px;
+  }
+  .singleServiceConsultation_mainRightButton {
+    padding: 12px 40px;
+  }
+}
+@media (max-width: 420px) {
+  .singleServiceConsultation_mainRightHeading {
+    font-size: 24px;
+  }
+  .singleServiceConsultation_mainRight {
+    margin-top: 30px;
+  }
+  .singleServiceConsultation_mainRightDetail {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .singleServiceConsultation_mainRightButton {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
 }

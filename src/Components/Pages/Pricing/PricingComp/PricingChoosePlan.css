@@ -22,3 +22,33 @@
   padding: 50px 10px;
   margin-right: -50px;
 }
+@media (max-width: 900px) {
+  .pricingChoosePlan_topHeading {
+    font-size: 38px;
+  }
+  .pricingChoosePlan_topDetail {
+    width: 80%;
+  }
+  .pricingChoosePlan_bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 420px) {
+  .pricingChoosePlan_top {
+    padding-top: 50px;
+  }
+  .pricingChoosePlan_bottom {
+    margin-top: 20px;
+  }
+  .pricingChoosePlan_topHeading {
+    font-size: 24px;
+  }
+  .pricingChoosePlan_topDetail {
+    font-size: 12px;
+  }
+}

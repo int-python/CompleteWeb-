@@ -19,11 +19,38 @@
   color: #233d63;
   font-size: 20px;
   font-weight: 500;
-  line-height: 2em;
 }
 .home1ServicesBottomCardDetail {
   color: #8796ac;
-  font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 300;
+}
+@media (max-width: 900px) {
+  .home1ServicesBottomCard {
+    padding: 20px;
+  }
+  .home1ServicesBottomCardHeading {
+    font-size: 18px;
+  }
+  .home1ServicesBottomCardDetail {
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) {
+  .home1ServicesBottomCard {
+    width: 90%;
+    padding: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .home1ServicesBottomCardHeading {
+    font-size: 14px;
+  }
+  .home1ServicesBottomCardDetail {
+    font-size: 12px;
+  }
+  .home1ServicesBottomCard {
+    width: 100%;
+    margin: 0 0px 20px 0px;
+  }
 }

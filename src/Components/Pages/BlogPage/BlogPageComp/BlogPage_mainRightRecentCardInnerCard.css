@@ -5,18 +5,13 @@
 }
 .blogPage_mainRightRecentCardInnerCardLeft {
   position: relative;
-  height: auto;
   width: 30%;
-  margin: 0 40px 10px 0;
 }
 .blogPage_mainRightRecentCardInnerCardLeftImg {
   position: absolute;
-  height: 100%;
+  width: 100%;
+  max-width: 90px;
   object-fit: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
 }
 .blogPage_mainRightRecentCardInnerCardRight {
   width: 70%;
@@ -33,4 +28,10 @@
   padding: 10px 0px 0px 10px;
   color: #b0b0b0;
   margin-top: -20px;
+}
+@media (max-width: 900px) {
+}
+@media (max-width: 700px) {
+}
+@media (max-width: 420px) {
 }

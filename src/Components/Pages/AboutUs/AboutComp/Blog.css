@@ -33,7 +33,7 @@
 
 @media (max-width: 900px) {
   .blog_main {
-    padding: 50px 0;
+    padding: 50px 50px;
   }
   .blog_mainTopHeading {
     font-size: 38px;

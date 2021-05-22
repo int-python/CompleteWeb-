@@ -22,3 +22,27 @@
   width: 35%;
   padding-left: 60px;
 }
+@media (max-width: 900px) {
+  .blogPage_main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+  }
+  .blogPage_mainLeft {
+    width: 100%;
+  }
+  .blogPage_mainRight {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 420px) {
+  .blogPage_main {
+    padding: 100px 50px;
+  }
+  .blogPage_mainLeftButton {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}

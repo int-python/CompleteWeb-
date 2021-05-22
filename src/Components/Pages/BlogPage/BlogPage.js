@@ -24,7 +24,7 @@ function BlogPage() {
               Name="John Doe"
               Date="May 15, 2021"
               Detail="Home Home 1 Home 2 Pages About Us Our Team Pricing 404 Services Blog Single Post Contact Contact 1 Contact 2 X Blog Home Blog Why Digital Marketing is important? Why Digital Marketing is important? John Doe August 5, 2020 Far far away, behind the word mountains, far from the..."
-          ><button className="blog_mainBottomCardButton">Read More</button></BlogMainBottomCard>
+          ><a href="/singleBlog" className="blog_mainBottomCardButton">Read More</a></BlogMainBottomCard>
             
           </div>
           <div style={{ marginBottom: "50px" }}>
@@ -34,7 +34,7 @@ function BlogPage() {
             Name="John Doe"
             Date="May 15, 2021"
             Detail="Home Home 1 Home 2 Pages About Us Our Team Pricing 404 Services Blog Single Post Contact Contact 1 Contact 2 X Blog Home Blog Why Digital Marketing is important? Why Digital Marketing is important? John Doe August 5, 2020 Far far away, behind the word mountains, far from the..."
-            ><button className="blog_mainBottomCardButton">Read More</button></BlogMainBottomCard>
+            ><a href="/singleBlog" className="blog_mainBottomCardButton">Read More</a></BlogMainBottomCard>
 
           </div>
           <BlogMainBottomCard
@@ -43,7 +43,7 @@ function BlogPage() {
             Name="John Doe"
             Date="May 15, 2021"
             Detail="Home Home 1 Home 2 Pages About Us Our Team Pricing 404 Services Blog Single Post Contact Contact 1 Contact 2 X Blog Home Blog Why Digital Marketing is important? Why Digital Marketing is important? John Doe August 5, 2020 Far far away, behind the word mountains, far from the..."
-            ><button className="blog_mainBottomCardButton">Read More</button></BlogMainBottomCard>
+            ><a href="/singleBlog"className="blog_mainBottomCardButton">Read More</a></BlogMainBottomCard>
 
         <button className="blogPage_mainLeftButton">Load More</button>
         </div>

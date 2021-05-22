@@ -10,6 +10,7 @@ import Home1Services from './Home1Comp/Home1Services'
 import Home1Top from './Home1Comp/Home1Top'
 import WhyHome1 from './Home1Comp/WhyHome1'
 import TotalSvgTop from '../../Pages/ReComp/TotalSvgTop'
+import Home1Association from './Home1Comp/Home1Association'
 
 function Home1() {
     return (
@@ -20,6 +21,7 @@ function Home1() {
             <WhyHome1 />
             <Home1AboutUs />
             <Home1Services />
+            <Home1Association />
             <Home1Client />
             <Home1Faq />
             <Total styleBo={{display: 'none'}}>

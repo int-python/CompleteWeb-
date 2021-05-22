@@ -131,16 +131,10 @@
   .why_bodyLastMiddle {
     display: none;
   }
-  .why_divBottom {
-    margin-left: -170px;
-  }
 }
 @media (max-width: 700px) {
   .why_div {
     margin-left: 330px;
-  }
-  .why_divBottom {
-    margin-left: -230px;
   }
 }
 @media (max-width: 420px) {
@@ -172,10 +166,5 @@
     width: 4em;
     height: 2.8em;
     margin-right: 20px;
-  }
-
-  .why_divBottom {
-    margin-top: -50px;
-    margin-left: -340px;
   }
 }

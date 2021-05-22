@@ -28,7 +28,6 @@
   font-weight: 600;
 }
 .home1Faq_rightDetail {
-  text-align: left;
   color: #8796ac;
   font-size: 16px;
   font-weight: 300;
@@ -66,7 +65,73 @@
 }
 .home1Faq_rightAns {
   display: none;
+  color: #8796ac;
+  font-size: 14px;
+  font-weight: 300;
+  /* position relative Then transition */
 }
 .home1Faq_rightQue:hover + .home1Faq_rightAns {
   display: block;
+}
+@media (max-width: 900px) {
+  .home1Faq {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 100px 10px;
+  }
+  .home1Faq_left {
+    width: 70%;
+  }
+  .home1Faq_leftImg {
+    padding: 50px 0 0 0;
+    position: unset;
+    width: 100%;
+    max-width: 100%;
+  }
+  .home1Faq_right {
+    width: 90%;
+    padding: 50px 0 0 0;
+    text-align: center;
+  }
+  .home1Faq_rightAns {
+    text-align: left;
+  }
+}
+@media (max-width: 700px) {
+  .home1Faq_rightHeading {
+    font-size: 38px;
+  }
+  .home1Faq_rightDetail {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .home1Faq_rightHeading {
+    font-size: 34px;
+  }
+  .home1Faq_rightDetail {
+    font-size: 12px;
+  }
+  .home1Faq_rightFaqSec hr {
+    margin-top: -3px;
+  }
+  .home1Faq_rightQue {
+    text-align: left;
+    padding-top: 0px;
+  }
+  .home1Faq_rightQueTitle {
+    font-size: 14px;
+  }
+  .home1Faq_rightQueIcon {
+    font-size: 25px;
+  }
+  .home1Faq_rightButton {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  .home1Faq_rightAns {
+    font-size: 12px;
+  }
 }

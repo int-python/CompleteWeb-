@@ -8,7 +8,9 @@
   margin-bottom: -400px;
 }
 .contact1Main_leftImg {
-  height: 30%;
+  width: 100%;
+  max-width: 600px;
+  object-fit: cover;
 }
 .contact1Main_leftBottom {
   display: flex;
@@ -82,4 +84,44 @@
   padding: 15px 40px;
   color: #ffffff;
   background-color: #ffbe56;
+}
+@media (max-width: 700px) {
+  .contact1Main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact1Main_left {
+    width: 70%;
+    padding: 0 0 0 0;
+    margin-bottom: 0px;
+  }
+  .contact1Main_leftImg {
+    max-width: 100%;
+  }
+  .contact1Main_right {
+    width: 90%;
+  }
+}
+@media (max-width: 420px) {
+  .contact1Main_leftIconsIcon {
+    overflow: visible;
+    margin-bottom: 20px;
+  }
+  .contact1Main_leftIconsText {
+    color: #233d63;
+    font-size: 9px;
+  }
+  .contact1Main_right {
+    margin: 50px 0;
+  }
+  .contact1Main_rightHeading {
+    font-size: 34px;
+  }
+  .contact1Main_rightDetail {
+    font-size: 14px;
+  }
+  .contact1Main {
+    padding: 50px 0;
+  }
 }

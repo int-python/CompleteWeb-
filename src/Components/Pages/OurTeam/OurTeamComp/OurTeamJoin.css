@@ -13,7 +13,6 @@
   font-weight: 600;
 }
 .ourTeamJoinLeftDetail {
-  text-align: left;
   color: #8796ac;
   font-size: 16px;
   font-weight: 300;
@@ -30,12 +29,60 @@
 }
 .ourTeamJoinRight {
   width: 50%;
-  height: auto;
   position: relative;
 }
 .ourTeamJoinRightImg {
   position: absolute;
-  height: 100%;
+  width: 100%;
+  max-width: 600px;
   object-fit: cover;
   right: 0;
+}
+@media (max-width: 900px) {
+  .ourTeamJoin {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
+  }
+  .ourTeamJoinLeft {
+    width: 90%;
+    padding: 0px 0px 0px 0px;
+  }
+  .ourTeamJoinLeftHeading {
+    font-size: 38px;
+  }
+  .ourTeamJoinLeftDetail {
+    font-size: 14px;
+  }
+  .ourTeamJoinLeftButton {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  .ourTeamJoinRight {
+    width: 70%;
+    margin-top: 50px;
+  }
+  .ourTeamJoinRightImg {
+    position: unset;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  .ourTeamJoinLeft {
+    width: 90%;
+    padding: 0px 0px 0px 0px;
+  }
+  .ourTeamJoinLeftHeading {
+    font-size: 24px;
+  }
+  .ourTeamJoinLeftDetail {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .ourTeamJoinLeftButton {
+    font-size: 12px;
+  }
 }

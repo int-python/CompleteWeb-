@@ -1,0 +1,164 @@
+.singleBlogCard {
+  margin: 100px 15%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 1px rgba(176, 176, 176, 0.3);
+  padding: 35px 30px;
+  position: relative;
+}
+.singleBlogCard_Img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  border-radius: 10px 10px 0 0;
+}
+.singleBlogCard_Title {
+  padding-top: 50%;
+  margin-top: 25%;
+  font-size: 40px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #233d63;
+  line-height: 1.2;
+}
+.singleBlogCard_Info {
+  font-size: 14px;
+  font-weight: 300;
+  font-weight: 300;
+  color: #8796ac;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.singleBlogCard_InfoName {
+  color: #8796ac;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.singleBlogCard_InfoIcon {
+  margin-right: 5px;
+}
+.singleBlogCard_Detail {
+  color: #8796ac;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+}
+.singleBlogCardBoxCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 0px 24px;
+  margin: 20px 0;
+  background-color: #e8f1fa;
+  border-radius: 10px;
+}
+.singleBlogCardBoxCardIcon {
+  color: #4054b2;
+  font-size: 35px;
+}
+.singleBlogCardBoxCardData {
+  color: #233d63;
+  padding-left: 24px;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+}
+.singleBlogCard_list {
+  padding: 20px 10px;
+}
+.singleBlogCard_listItems {
+  color: #8796ac;
+  font-weight: 300;
+  line-height: 1px;
+}
+.singleBlogCard_share {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.singleBlogCard_shareHeading {
+  color: #233d63;
+  font-size: 20px;
+  font-weight: 600;
+}
+.singleBlogCard_shareIcons {
+  display: flex;
+  justify-content: space-between;
+}
+.singleBlogCard_shareIconFb {
+  color: #ffffff;
+  background-color: #3b5998;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  padding: 15px;
+  overflow: visible;
+}
+.singleBlogCard_shareIconTw {
+  color: #ffffff;
+  background-color: #1da1f2;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  padding: 15px;
+  overflow: visible;
+}
+.singleBlogCard_shareIconLi {
+  color: #ffffff;
+  background-color: #0077b5;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  padding: 15px;
+  overflow: visible;
+}
+@media (max-width: 900px) {
+  .singleBlogCard {
+    margin: 100px 5%;
+  }
+  .singleBlogCard_Title {
+    font-size: 22px;
+  }
+  .singleBlogCard_Info {
+    font-size: 12px;
+  }
+  .singleBlogCard_InfoName {
+    margin-right: 12px;
+  }
+  .singleBlogCard_Detail {
+    font-size: 13px;
+  }
+  .singleBlogCardBoxCardData {
+    font-size: 14px;
+  }
+  .singleBlogCard_list {
+    padding: 20px 10px;
+  }
+  .singleBlogCard_listItems {
+    font-size: 14px;
+  }
+}
+@media (max-width: 420px) {
+  .singleBlogCard {
+    margin: 100px 5%;
+  }
+  .singleBlogCard_Title {
+    font-size: 20px;
+  }
+  .singleBlogCard_listItems {
+    font-size: 12px;
+    line-height: 10px;
+  }
+}

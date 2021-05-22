@@ -26,11 +26,11 @@
 .ourTeamSkills_mainLeft {
   width: 50%;
   position: relative;
-  height: auto;
 }
 .ourTeamSkills_mainLeftImg {
   position: absolute;
-  height: 100%;
+  width: 100%;
+  max-width: 600px;
   object-fit: cover;
 }
 .ourTeamSkills_mainRight {
@@ -43,7 +43,6 @@
   font-weight: 600;
 }
 .ourTeamSkills_mainRightDetail {
-  text-align: left;
   color: #ffffff;
   font-size: 16px;
   font-weight: 300;
@@ -59,4 +58,63 @@
 }
 .ourTeamSkills_mainRightBottomBarHeading {
   color: #ffffff;
+}
+@media (max-width: 1020px) {
+  .ourTeamSkills_mainRightBottomLeft,
+  .ourTeamSkills_mainRightBottomRight {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .ourTeamSkills_main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  .ourTeamSkills_mainLeft {
+    width: 70%;
+  }
+  .ourTeamSkills_mainLeftImg {
+    position: unset;
+    max-width: 100%;
+  }
+  .ourTeamSkills_mainRight {
+    width: 90%;
+  }
+  .ourTeamSkills_mainRightHeading {
+    font-size: 38px;
+  }
+  .ourTeamSkills_mainRightDetail {
+    font-size: 16px;
+  }
+}
+@media (max-width: 420px) {
+  .ourTeamSkills_main {
+    padding: 10px 0px;
+  }
+  .ourTeamSkills_mainRight {
+    text-align: center;
+  }
+  .ourTeamSkills_mainRightHeading {
+    font-size: 24px;
+  }
+  .ourTeamSkills_mainRightDetail {
+    font-size: 12px;
+  }
+  .ourTeamSkills_mainRightBottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .ourTeamSkills_mainRightBottomLeft,
+  .ourTeamSkills_mainRightBottomRight {
+    width: 90%;
+    padding-right: 0px;
+  }
+  .ourTeamSkills_mainRightBottomBarHeading {
+    text-align: left;
+    font-size: 14px;
+  }
 }

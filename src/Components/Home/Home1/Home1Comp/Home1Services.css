@@ -28,3 +28,34 @@
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1020px) {
+  .home1ServicesTopDetail {
+    width: 90%;
+  }
+}
+@media (max-width: 900px) {
+  .home1ServicesTopHeading {
+    font-size: 38px;
+  }
+}
+@media (max-width: 700px) {
+  .home1ServicesTop {
+    padding-top: 50px;
+  }
+  .home1ServicesTopHeading {
+    font-size: 24px;
+  }
+  .home1ServicesTopDetail {
+    font-size: 12px;
+  }
+  .home1ServicesBottomRow1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home1ServicesBottomRow2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

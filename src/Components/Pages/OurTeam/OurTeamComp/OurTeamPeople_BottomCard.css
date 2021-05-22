@@ -32,3 +32,10 @@
 .ourTeamPeople_BottomCardIcon {
   margin-right: 20px;
 }
+@media (max-width: 700px) {
+  .ourTeamPeople_BottomCard {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}

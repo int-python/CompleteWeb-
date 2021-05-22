@@ -24,7 +24,7 @@
     width: 80vw;
   }
   .aboutWhyCard_Icon {
-    padding: 18px;
+    padding: 14px;
     width: 4em;
     height: 4em;
     margin-right: 20px;
@@ -33,7 +33,7 @@
 @media (max-width: 420px) {
   .aboutWhyCard_Icon {
     padding: 10px;
-    width: 4em;
+    width: 4em !important;
     height: 2.8em;
     margin-right: 20px;
   }
