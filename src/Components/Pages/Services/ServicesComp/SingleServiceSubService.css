@@ -51,7 +51,7 @@
     font-size: 14px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .singleServiceSubService_ {
     padding-top: 100px;
   }

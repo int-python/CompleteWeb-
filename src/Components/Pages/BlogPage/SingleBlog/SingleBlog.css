@@ -150,7 +150,7 @@
     font-size: 14px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .singleBlogCard {
     margin: 100px 5%;
   }

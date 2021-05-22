@@ -29,7 +29,7 @@
   font-size: 14px;
   font-weight: 300;
 }
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .whyHome1BodyRightCard {
     flex-direction: column;
     align-items: center;

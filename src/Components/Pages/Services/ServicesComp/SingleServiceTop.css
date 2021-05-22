@@ -109,7 +109,7 @@
     margin-bottom: -150px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .singleServiceTopHeading {
     font-size: 28px;
   }

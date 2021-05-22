@@ -70,7 +70,7 @@
     max-width: 100%;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .ourTeamJoinLeft {
     width: 90%;
     padding: 0px 0px 0px 0px;

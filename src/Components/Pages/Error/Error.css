@@ -69,7 +69,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .error_mainLeftMessage {
     font-size: 150px;
   }

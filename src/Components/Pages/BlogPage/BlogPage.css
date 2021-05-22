@@ -37,7 +37,7 @@
     padding-left: 0px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .blogPage_main {
     padding: 100px 50px;
   }
