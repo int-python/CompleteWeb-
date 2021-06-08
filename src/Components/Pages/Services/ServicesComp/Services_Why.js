@@ -9,13 +9,13 @@ import AboutWhyCard from "../../ReComp/AboutWhyCard";
 import OurTeamSkillsSvg from "../../ReComp/OurTeamSkillsSvg";
 import "./Services_Why.css";
 
-function Services_Why() {
+function Services_Why(props) {
   return (
     <div className="services_Why">
       <OurTeamSkillsSvg />
       <div className="services_WhyMain">
         <div className="services_Why_top">
-          <p className="services_Why_topHeading">Why Choose Us</p>
+          <p className="services_Why_topHeading">{props.heading}</p>
           <p className="services_Why_topDetail">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium totam rem aperiam eaque ipsa quae{" "}

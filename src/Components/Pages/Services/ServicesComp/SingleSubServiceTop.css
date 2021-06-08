@@ -1,0 +1,79 @@
+.singleSubServiceTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10px;
+}
+.singleSubServiceTop_left {
+  width: 50%;
+}
+.singleSubServiceTop_leftHeading {
+  color: #ffbe56;
+  font-size: 30px;
+  font-weight: 600;
+}
+.singleSubServiceTop_leftSubHeading {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+.singleSubServiceTop_leftDetail {
+  width: 95%;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.singleSubServiceTop_leftButton {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffbe56;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 10px 30px;
+}
+.singleSubServiceTop_right {
+  position: relative;
+  width: 50%;
+}
+.singleSubServiceTop_rightImg {
+  position: absolute;
+  width: auto;
+  max-width: 600px;
+  object-fit: cover;
+}
+@media (max-width: 900px) {
+  .singleSubServiceTop {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .singleSubServiceTop_left {
+    width: 100%;
+  }
+  .singleSubServiceTop_leftDetail {
+    width: 100%;
+  }
+  .singleSubServiceTop_right {
+    width: 70%;
+    margin-top: 30px;
+  }
+  .singleSubServiceTop_rightImg {
+    position: unset;
+    max-width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .singleSubServiceTop_leftHeading {
+    font-size: 24px;
+  }
+  .singleSubServiceTop_leftSubHeading {
+    font-size: 18px;
+  }
+  .singleSubServiceTop_leftDetail {
+    font-size: 14px;
+  }
+  .singleSubServiceTop_leftButton {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
