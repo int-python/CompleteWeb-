@@ -7,13 +7,19 @@ function Home1Top() {
     <div className="home1Top">
       <div className="home1Top_content">
         <div className="home1Top_contentLeft">
-          <p className="home1Top_contentLeftHeading">SEO & Digital</p>
-          <p className="home1Top_contentLeftSubHeading">Marketing Agency</p>
-          <p className="home1Top_contentLeftDetail">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium totam
+          <p className="home1Top_contentLeftHeading">India’s leading</p>
+          <p className="home1Top_contentLeftSubHeading">
+            IT consulting company
           </p>
-          <a href="" className="home1Top_contentLeftButton">Contact Us</a>
+          <p className="home1Top_contentLeftDetail">
+            Abhedya’s is an innovative IT services providers that help you
+            create unparalleled experience by understanding the business goods
+            and requirements and transforming it into the best by the judicial
+            use of technology.
+          </p>
+          <a href="" className="home1Top_contentLeftButton">
+            Contact Us
+          </a>
         </div>
         <div className="home1Top_contentRight">
           <img
@@ -23,7 +29,7 @@ function Home1Top() {
           />
         </div>
       </div>
-     <PageTopsvg />
+      <PageTopsvg />
     </div>
   );
 }

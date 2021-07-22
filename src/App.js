@@ -14,6 +14,7 @@ import "react-modal-video/scss/modal-video.scss";
 import SingleService from "./Components/Pages/Services/ServicesComp/SingleService";
 import SingleBlog from "./Components/Pages/BlogPage/SingleBlog/SingleBlog";
 import SingleSubService from "./Components/Pages/Services/ServicesComp/SingleSubService";
+import singleServiceData from "./data";
 
 function App() {
   return (
@@ -29,8 +30,13 @@ function App() {
           <Route exact path="/blogs" component={BlogPage} />
           <Route exact path="/singleBlog" component={SingleBlog} />
           <Route exact path="/contact1" component={Contact1} />
-          <Route exact path="/singleService" component={SingleService} />
-          <Route exact path="/singleSubService" component={SingleSubService} />
+          {/* <Route exact path="/service/:id" component={SingleService} /> */}
+          <Route exact path="/service/:url" component={SingleService} />
+          <Route
+            exact
+            path="/service/:path/:path"
+            component={SingleSubService}
+          />
         </Switch>
         <Footer />
       </Router>

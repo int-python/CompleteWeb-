@@ -12,23 +12,20 @@ function Contact1Main() {
           className="contact1Main_leftImg"
         />
         <div className="contact1Main_leftBottom">
-          <div className="contact1Main_leftIcons" style={{marginTop:'20px'}}>
+          <div className="contact1Main_leftIcons" style={{ marginTop: "60px" }}>
             <FaMapMarkerAlt className="contact1Main_leftIconsIcon" />
             <p className="contact1Main_leftIconsText">
-              280 Jefferson Street Port Charlotte, FL 33952
+              jyoti nagar shobaghpura, G-01, Shubh Mangal Apartment, Udaipur,
+              Rajasthan 313001, IN
             </p>
           </div>
           <div className="contact1Main_leftIcons">
             <FaPhoneAlt className="contact1Main_leftIconsIcon" />
-            <p className="contact1Main_leftIconsText">
-                +012 3456 564
-            </p>
+            <p className="contact1Main_leftIconsText">+012 3456 564</p>
           </div>
           <div className="contact1Main_leftIcons">
             <FaEnvelope className="contact1Main_leftIconsIcon" />
-            <p className="contact1Main_leftIconsText">
-                contact@syntra.com
-            </p>
+            <p className="contact1Main_leftIconsText">contact@syntra.com</p>
           </div>
         </div>
       </div>

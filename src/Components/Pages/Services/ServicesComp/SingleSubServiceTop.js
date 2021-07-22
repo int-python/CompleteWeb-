@@ -1,14 +1,12 @@
 import React from "react";
 import "./SingleSubServiceTop.css";
 
-function SingleSubServiceTop() {
+function SingleSubServiceTop({ baseid }) {
   return (
     <div className="singleSubServiceTop">
       <div className="singleSubServiceTop_left">
         <p className="singleSubServiceTop_leftHeading">What is</p>
-        <p className="singleSubServiceTop_leftSubHeading">
-          Mobile Application Security Assessment
-        </p>
+        <p className="singleSubServiceTop_leftSubHeading">{baseid.name}</p>
         <p className="singleSubServiceTop_leftDetail">
           Over the last few years, mobile technology has accelerated its growth
           and seen a massive increase in user base. Mobile applications store

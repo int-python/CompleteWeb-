@@ -16,12 +16,12 @@ function Home1Faq() {
           <p className="home1Faq_rightHeading">FAQ</p>
           <p className="home1Faq_rightDetail">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium totam rem aperiam eaque ipsa quae{" "}
+            accusantium doloremque laudantium totam rem aperiam eaque ipsa quae
           </p>
           <div className="home1Faq_rightFaqSec">
             <div className="home1Faq_rightQue">
               <a href="" className="home1Faq_rightQueTitle">
-                Sed ut perspiciatis unde omnis
+                What cyber security services do you offer?
               </a>
               <a href="" className="home1Faq_rightQueIcon">
                 +
@@ -37,7 +37,7 @@ function Home1Faq() {
             <hr />
             <div className="home1Faq_rightQue">
               <a href="" className="home1Faq_rightQueTitle">
-                Perspiciatis unde omnis iste natus error
+                How will machine learning help my business?
               </a>
               <a href="" className="home1Faq_rightQueIcon">
                 +
@@ -53,7 +53,8 @@ function Home1Faq() {
             <hr />
             <div className="home1Faq_rightQue">
               <a href="" className="home1Faq_rightQueTitle">
-                Voluptatem accusantium doloremque laudantium totam
+                How much will it cost to make a full-fledged model of a web
+                application?
               </a>
               <a href="" className="home1Faq_rightQueIcon">
                 +

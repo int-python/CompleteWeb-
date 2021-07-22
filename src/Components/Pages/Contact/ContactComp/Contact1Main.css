@@ -15,7 +15,7 @@
 .contact1Main_leftBottom {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 .contact1Main_leftIcons {
   display: flex;

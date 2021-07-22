@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import "./Home1AboutUs.css";
 import { FaCheckCircle, FaPlay } from "react-icons/fa";
 import PageTopsvg from "../../../Pages/ReComp/PageTopsvg";
-import ModalVideo from 'react-modal-video'
-
+import ModalVideo from "react-modal-video";
 
 function Home1AboutUs() {
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(false);
 
   return (
     <div className="home1AboutUs">
@@ -26,34 +25,50 @@ function Home1AboutUs() {
           ></path>
         </svg>
       </div> */}
-      <PageTopsvg Direction={{transform:'rotate(180deg)'}}/>
+      <PageTopsvg Direction={{ transform: "rotate(180deg)" }} />
       <div className="home1AboutUs_main">
         <div className="home1AboutUs_mainLeft">
           <p className="home1AboutUs_mainLeftHeading">About Us</p>
           <p className="home1AboutUs_mainLeftDetail">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
+            Abhedya’s futuristic solutions are one of the leading IT companies
+            across all public and private sectors in the country. Our primary
+            mission is to make technology secure, accessible and convenient for
+            everyone. All our tools and software products are made in India
+            making us a true local brand.
           </p>
           <div className="home1AboutUs_mainLeftList">
             <p className="home1AboutUs_mainLeftItems">
               <FaCheckCircle className="home1AboutUs_mainLeftItemsIcon" />
-              Totam Rem aperiam
+              Cyber security end point management
             </p>
             <p className="home1AboutUs_mainLeftItems">
               <FaCheckCircle className="home1AboutUs_mainLeftItemsIcon" />
-              Magnis Dis Parturient Montes
+              Custom software product management
             </p>
             <p className="home1AboutUs_mainLeftItems">
               <FaCheckCircle className="home1AboutUs_mainLeftItemsIcon" />
-              Donec sodales sagittis magna
+              Cloud migration, artificial intelligence and big data
             </p>
-        </div>
-          <a href="" className="home1AboutUs_mainLeftButton">Learn More</a>
-          <a onClick={()=> setOpen(true)} className="home1AboutUs_mainLeftPlayButton"><FaPlay className="home1AboutUs_mainLeftPlayButtonIcon" /></a>
-            <span className="home1AboutUs_mainLeftPlayButtonRightText">Watch Video</span>
-          <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="PN9nJf-BWvw" onClose={() => setOpen(false)} />
+          </div>
+          <a href="" className="home1AboutUs_mainLeftButton">
+            Learn More
+          </a>
+          <a
+            onClick={() => setOpen(true)}
+            className="home1AboutUs_mainLeftPlayButton"
+          >
+            <FaPlay className="home1AboutUs_mainLeftPlayButtonIcon" />
+          </a>
+          <span className="home1AboutUs_mainLeftPlayButtonRightText">
+            Watch Video
+          </span>
+          <ModalVideo
+            channel="youtube"
+            autoplay
+            isOpen={isOpen}
+            videoId="PN9nJf-BWvw"
+            onClose={() => setOpen(false)}
+          />
         </div>
         <div className="home1AboutUs_mainRight">
           <img

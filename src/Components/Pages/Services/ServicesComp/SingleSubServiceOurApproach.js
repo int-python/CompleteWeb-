@@ -3,41 +3,69 @@ import "./SingleSubServiceOurApproach.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function SingleSubServiceOurApproach() {
+function SingleSubServiceOurApproach({ baseid }) {
   const data = [
     {
       id: 1,
       class: "left",
-      heading: "Pre-Engagement",
-      detail:
-        "Our team compiles data on the application's architecture, usecases, business logic, and other pertinent details about the mobile application.",
+      heading: baseid.approchSteps[0].stepHeading,
+      detail: baseid.approchSteps[0].stepDeail,
       animation: "right",
     },
     {
       id: 2,
       class: "right",
-      heading: "Threat Modelling",
-      detail:
-        "Create an application's threat profile by enumerating all potential risks and associated threats. This enables testers to create custom test plans to simulate attacks, allowing for assessing actual risks rather than generic vulnerabilities.",
+      heading: baseid.approchSteps[1].stepHeading,
+      detail: baseid.approchSteps[1].stepDeail,
       animation: "left",
     },
     {
       id: 3,
       class: "left",
-      heading: "Pre-Engagement",
-      detail:
-        "Our team compiles data on the application's architecture, usecases, business logic, and other pertinent details about the mobile application.",
+      heading: baseid.approchSteps[2].stepHeading,
+      detail: baseid.approchSteps[2].stepDeail,
       animation: "right",
     },
     {
       id: 4,
       class: "right",
-      heading: "Threat Modelling",
-      detail:
-        "Create an application's threat profile by enumerating all potential risks and associated threats. This enables testers to create custom test plans to simulate attacks, allowing for assessing actual risks rather than generic vulnerabilities.",
+      heading: baseid.approchSteps[3].stepHeading,
+      detail: baseid.approchSteps[3].stepDeail,
       animation: "left",
     },
   ];
+
+  switch (baseid.approchStepsno) {
+    case 5:
+      data.push({
+        id: 5,
+        class: "left",
+        heading: baseid.approchSteps[4].stepHeading,
+        detail: baseid.approchSteps[4].stepDeail,
+        animation: "right",
+      });
+      break;
+    case 6:
+      data.push(
+        {
+          id: 5,
+          class: "left",
+          heading: baseid.approchSteps[4].stepHeading,
+          detail: baseid.approchSteps[4].stepDeail,
+          animation: "right",
+        },
+        {
+          id: 6,
+          class: "right",
+          heading: baseid.approchSteps[5].stepHeading,
+          detail: baseid.approchSteps[5].stepDeail,
+          animation: "left",
+        }
+      );
+      break;
+    default:
+      break;
+  }
 
   AOS.init({
     delay: 100,

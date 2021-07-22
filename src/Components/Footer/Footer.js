@@ -36,28 +36,29 @@ function Footer() {
           </div>
           <div className="footer_mainTopSecond">
             <p className="footer_mainTopSecondHeading">Information</p>
-            <a href="" className="footer_mainTopSecondLinks">
+            <a href="/aboutUs" className="footer_mainTopSecondLinks">
               About Us
             </a>
-            <a href="" className="footer_mainTopSecondLinks">
+            <a href="/services" className="footer_mainTopSecondLinks">
               Services
             </a>
-            <a href="" className="footer_mainTopSecondLinks">
+            <a href="/ourTeam" className="footer_mainTopSecondLinks">
               Our Team
             </a>
-            <a href="" className="footer_mainTopSecondLinks">
+            <a href="/pricing" className="footer_mainTopSecondLinks">
               Our Price
             </a>
-            <a href="" className="footer_mainTopSecondLinks">
+            <a href="/contact1" className="footer_mainTopSecondLinks">
               Contact
             </a>
           </div>
           <div className="footer_mainTopThird">
             <p className="footer_mainTopThirdHeading">Contact Us</p>
             <div className="footer_mainTopThirdLinkWrap">
-              <FaMapMarkerAlt className="footer_mainTopThirdIcons" />
+              <FaMapMarkerAlt className="footer_mainTopThirdIcons mapicon" />
               <a href="" className="footer_mainTopThirdLinks">
-                280 Jefferson Street Port Charlotte, FL 33952
+                jyoti nagar shobaghpura, G-01, Shubh Mangal Apartment, Udaipur,
+                Rajasthan 313001, IN
               </a>
             </div>
             <div className="footer_mainTopThirdLinkWrap">
@@ -76,8 +77,7 @@ function Footer() {
           <div className="footer_mainTopForth">
             <p className="footer_mainTopForthHeading">Newsletter</p>
             <p className="footer_mainTopForthDetail">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium totam rem aperiam
+              Subscribe now and receive weekly newsletter from us.
             </p>
             <div className="footer_mainTopForthInputGroup">
               <input

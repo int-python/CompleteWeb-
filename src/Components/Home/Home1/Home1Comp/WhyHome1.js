@@ -14,8 +14,8 @@ function WhyHome1() {
       <div className="whyHome1Head">
         <p className="whyHome1HeadHeading">Why Choose Us</p>
         <p className="whyHome1HeadDetail">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium totam rem aperiam eaque ipsa quae{" "}
+          We boost in delivering comprehensive solution to our client from
+          development to security, analytics to implementation, we offer it all.
         </p>
       </div>
       <div className="whyHome1Body">
@@ -30,15 +30,13 @@ function WhyHome1() {
           <div className="whyHome1BodyRightTop">
             <WhyHome1BodyRightCard
               Heading="High Quality Services"
-              Detail="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium"
+              Detail="we meet or exceed customer expectations while remaining economically competitive."
             >
               <FaRegCheckCircle className="whyHome1BodyRightCardLeftIcon" />
             </WhyHome1BodyRightCard>
             <WhyHome1BodyRightCard
               Heading="Creativity"
-              Detail="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium"
+              Detail="we are able to shape new and impossible ideas to reality, creating something valuable."
             >
               <FaPencilRuler className="whyHome1BodyRightCardLeftIcon" />
             </WhyHome1BodyRightCard>
@@ -46,15 +44,13 @@ function WhyHome1() {
           <div className="whyHome1BodyRightBottom">
             <WhyHome1BodyRightCard
               Heading=" Project On Time"
-              Detail="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium"
+              Detail="our dedicated team figures out the project scope and deliver it within the deadline."
             >
               <BsClockHistory className="whyHome1BodyRightCardLeftIcon" />
             </WhyHome1BodyRightCard>
             <WhyHome1BodyRightCard
               Heading=" 24/7 Support "
-              Detail="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium"
+              Detail="we provide personal assistance all round the clock to ensure customer satisfaction and trust."
             >
               <FaUserAstronaut className="whyHome1BodyRightCardLeftIcon" />
             </WhyHome1BodyRightCard>

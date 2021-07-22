@@ -3,12 +3,12 @@ import "./SingleServiceTop.css";
 import ModalVideo from "react-modal-video";
 import { FaCheckCircle, FaPlay } from "react-icons/fa";
 
-function SingleServiceTop() {
+function SingleServiceTop({ dataid }) {
   const [isOpen, setOpen] = useState(false);
 
   return (
     <div className="singleServiceTop">
-      <p className="singleServiceTopHeading">SingleServiceName</p>
+      <p className="singleServiceTopHeading">{dataid.name}</p>
       <p className="singleServiceTopDetail">
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium totam rem aperiam eaque ipsa quae{" "}
