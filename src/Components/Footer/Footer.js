@@ -64,13 +64,13 @@ function Footer() {
             <div className="footer_mainTopThirdLinkWrap">
               <FaPhoneAlt className="footer_mainTopThirdIcons" />
               <a href="" className="footer_mainTopThirdLinks">
-                +012 3456 564
+                +91 8278677705
               </a>
             </div>
             <div className="footer_mainTopThirdLinkWrap">
               <FaEnvelope className="footer_mainTopThirdIcons" />
               <a href="" className="footer_mainTopThirdLinks">
-                Syntra@support.com
+                info@abhedya.in
               </a>
             </div>
           </div>

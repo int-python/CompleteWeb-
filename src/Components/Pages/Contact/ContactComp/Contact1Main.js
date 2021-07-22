@@ -21,11 +21,11 @@ function Contact1Main() {
           </div>
           <div className="contact1Main_leftIcons">
             <FaPhoneAlt className="contact1Main_leftIconsIcon" />
-            <p className="contact1Main_leftIconsText">+012 3456 564</p>
+            <p className="contact1Main_leftIconsText">+91 8278677705</p>
           </div>
           <div className="contact1Main_leftIcons">
             <FaEnvelope className="contact1Main_leftIconsIcon" />
-            <p className="contact1Main_leftIconsText">contact@syntra.com</p>
+            <p className="contact1Main_leftIconsText">info@abhedya.in</p>
           </div>
         </div>
       </div>
