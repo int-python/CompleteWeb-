@@ -10,11 +10,7 @@ function Header(props) {
     <div className="header">
       <Navbar className="header_nav" collapseOnSelect expand="lg">
         <Navbar.Brand href="/">
-          <img
-            src="https://templatekit.jegtheme.com/syntra/wp-content/uploads/sites/7/2020/08/logo-header-1.png"
-            alt=""
-            className="header_leftLogo"
-          />
+          <img src="/Images/Logo/Logo.png" alt="" className="header_leftLogo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="header_right" id="responsive-navbar-nav">

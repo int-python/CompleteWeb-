@@ -20,7 +20,7 @@ function Footer() {
         <div className="footer_mainTop">
           <div className="footer_mainTopfirst">
             <img
-              src="https://templatekit.jegtheme.com/syntra/wp-content/uploads/sites/7/2020/08/logo-header-1.png"
+              src="/Images/Logo/Logo.png"
               alt=""
               className="footer_mainTopfirstLogo"
             />

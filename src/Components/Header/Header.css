@@ -1,12 +1,13 @@
 .header {
-  padding-top: 20px;
+  padding-top: 10px;
   background: linear-gradient(320deg, #30b2ea 0%, #5355ee 100%);
 }
 .header_leftLogo {
-  width: 50%;
+  width: 18%;
   height: auto;
   max-width: 100%;
   margin-left: -7px;
+  margin-bottom: -7px;
 }
 .nav-link {
   color: #fff !important;
