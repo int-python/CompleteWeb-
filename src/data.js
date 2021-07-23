@@ -1,44 +1,44 @@
 export const singleServiceData = [
   {
     id: 1,
-    name: "Cyber security",
+    name: "Cyber Security",
     url: "CyberSecurity",
     singleServiceTopDetail:
       "Abhedya’s works hard to provide you with the best defenses solutions that helps  build a more secure digital environment .our top notch collection of services always keeps us a step ahead of the criminals, thereby safeguarding and defending your online assets like our own.",
     subServicesNo: 6,
     subServicesName: [
       {
-        name: "Vulnerability assessment and penetration",
+        name: "Vulnerability Assessment And Penetration",
         detail:
           "we help in finding and measuring the vulnerabilities of the systems as well as exploiting it for your advantage.",
         path: "/service/cyberSecurity/vapt",
       },
       {
-        name: "Mobile application pentesting",
+        name: "Mobile Application Pentesting",
         detail:
           "we help identify large pool of mobile application threat vectors and fortify the application from vulnerabilities.",
         path: "/service/cyberSecurity/mapt",
       },
       {
-        name: "Web app pentesting",
+        name: "Web App Pentesting",
         detail:
           "we offer industry standard security practices with tools designed to test, protect and inspect your web applications and web pages.",
         path: "/service/cyberSecurity/wap",
       },
       {
-        name: "Data recovery solution",
+        name: "Data Recovery Solution",
         detail:
           "we devise extraordinary methods to retrieve lost or deleted data, media or files.",
         path: "/service/cyberSecurity/dataRecSol",
       },
       {
-        name: "Cyber fraud investigation",
+        name: "Cyber Fraud Investigation",
         detail:
           "we can determine what data was compromised and weather digital evidence was erased or modified, recover data and recreate events and exchange so that you have an accurate diagonals to develop an effective recovery plan.",
         path: "/service/cyberSecurity/cyberFraudInv",
       },
       {
-        name: "Auditing & compliance",
+        name: "Auditing & Compliance",
         detail:
           "we evaluate how an organization follows outside as well its own rules of conduct and formal process.",
         path: "/service/cyberSecurity/audit&comp",
@@ -46,7 +46,7 @@ export const singleServiceData = [
     ],
     subServicesPage: [
       {
-        name: "Vulnerability assessment and penetration",
+        name: "Vulnerability Assessment And Penetration",
         singleSubServiceTop_leftDetail:
           "A vulnerability assessment and penetration take a look at, informally up-to-date a pen take a look at or VAPT, is an authorized simulated cyber-assault on up to date structures. VAPT enables in distinguishing safety vulnerabilities and facilitates up-to-date hacking and losing believability with the up-to-date.",
         approchStepsno: 4,
@@ -74,7 +74,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Mobile software pentesting",
+        name: "Mobile Application Pentesting",
         singleSubServiceTop_leftDetail:
           "Mobile application security and Penetration testing (MASPT) provides penetration testers and IT protection experts the sensible abilities important up-to-date recognize the technical threats and attack venue-to-daters concentrated on cellular gadgets",
         approchStepsno: 5,
@@ -107,7 +107,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Net app pentesting",
+        name: "Web App Pentesting",
         singleSubServiceTop_leftDetail:
           "Immunize is a web app pen test up-to-date that delivers internet software security checking out augmented with machine mastering generation and human trying out. It’s far a synthetic intelligence enabled internet app penetration testing platform that gives you a holistic benefit bundle up to date your updated security crew.",
         approchStepsno: 4,
@@ -135,7 +135,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Data recovery solution",
+        name: "Data Recovery Solution",
         singleSubServiceTop_leftDetail:
           "records recuperation solutions is one of the leading software program providers imparting a widest range of report data up to date up-to-date for home windows-up-to-date systems. The number one objective of the organization is up-to-date facilitate the lives of tens of millions of up-to-date users and IT specialists by using handing over them international-class solutions for convalescing records from their corrupt files.",
         approchStepsno: 4,
@@ -163,7 +163,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Cyber fraud research",
+        name: "Cyber Fraud Investigation",
         singleSubServiceTop_leftDetail:
           "consequently, a cybercrime research is that the system of investigating, studying and recovering important forensic digital information from the networks concerned inside the assault this is probably the net and/or a place network—up to date spot the authors of the digital crime and their actual intentions.",
         approchStepsno: 4,
@@ -191,7 +191,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Auding &compliance",
+        name: "Auditing & Compliance",
         singleSubServiceTop_leftDetail:
           "Auditing is a scientific and medical process of inspection of the economic statements of a corporation. And like any medical procedures, the audit also has sure standards and on-line that govern it. Up-to-date now take a look at a few basic principles governing an Audit.",
         approchStepsno: 4,
@@ -222,7 +222,7 @@ export const singleServiceData = [
   },
   {
     id: 2,
-    name: "UI UX design",
+    name: "UI UX Design",
     url: "UI-UX",
     singleServiceTopDetail: "sdsdsds",
     subServicesNo: 6,
@@ -240,7 +240,7 @@ export const singleServiceData = [
         path: "/service/UI-UX/webDesign",
       },
       {
-        name: "Mobile арр design",
+        name: "Mobile Aрр Design",
         detail:
           "Design mobile арр that directly соnneсts your аudienсe. ¬ Lovely and trendy style that creates distinction. ¬ Bооst your sales with strаtegiсаlly designed promoting materials. Lorem ipsum grief sits met, соnseсtetuer аdiрisсing elite, sed dim nonummy nib euismod incident UT laureate grief.",
         path: "/service/UI-UX/mobAppDesign",
@@ -292,7 +292,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "WEB design",
+        name: "Web Design",
         singleSubServiceTop_leftDetail:
           "Web style internet style is the рrосess of сreаting а web site that provides the user а easy, сleаn, intuitive layout that works hand in hand with the соntent to offer the user а сleаn раth to have interaction with your complete. Internet style and соntent promoting work along to deliver your message and represent your complete.",
         approchStepsno: 4,
@@ -320,7 +320,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Mobile арр design",
+        name: "Mobile Aрр Design",
         singleSubServiceTop_leftDetail:
           "Design mobile арр that directly соnneсts your аudienсe. ¬ Lovely and trendy style that creates distinction. ¬ Bооst your sales with strаtegiсаlly designed promoting materials. Lorem ipsum grief sits met, соnseсtetuer аdiрisсing elite, sed dim nonummy nib euismod incident UT laureate grief.",
         approchStepsno: 4,
@@ -431,31 +431,31 @@ export const singleServiceData = [
   },
   {
     id: 3,
-    name: "Software development",
+    name: "Software Development",
     url: "SoftwareDevelopment",
     singleServiceTopDetail: "",
     subServicesNo: 6,
     subServicesName: [
       {
-        name: "Mobile app development",
+        name: "Mobile App Development",
         detail:
           "In mobile app development the high level scope of labor is that the development of Project as per the wants specifications sent by you as mentioned higher than. Inventive styles and graphics development like but Developer might advocate or produce their own styles for the betterment of the App.",
         path: "/service/SoftwareDevelopment/mobAppDev",
       },
       {
-        name: "Website development",
+        name: "Website Development",
         detail:
           "A website may be outlined as a group of many webpages that square measure all associated with one another and might be accessed by visiting a homepage, employing a browser like net person, Mozilla, Google Chrome or Opera.",
         path: "/service/SoftwareDevelopment/webDev",
       },
       {
-        name: "PWA hybrid app development",
+        name: "PWA Hybrid App Development",
         detail:
           "PWA (Progressive internet App) PWA is that the results of a singular cross-platform app development methodology that delivers websites put in on your phone through the mobile browser",
         path: "/service/SoftwareDevelopment/pwaHybDev",
       },
       {
-        name: "Software development",
+        name: "Software Development",
         detail:
           "“Software development refers to a group of technology activities dedicated to the method of making, designing, deploying and supporting code.” code itself is that the set of directions or programs that tell a laptop what to try and do.",
         path: "/service/SoftwareDevelopment/softDev",
@@ -473,7 +473,7 @@ export const singleServiceData = [
     ],
     subServicesPage: [
       {
-        name: "Mobile app development",
+        name: "Mobile App Development",
         singleSubServiceTop_leftDetail:
           "In mobile app development the high level scope of labor is that the development of Project as per the wants specifications sent by you as mentioned higher than. Inventive styles and graphics development like emblem style isn't lined within the scope of labor of this contract; but Developer might advocate or produce their own styles for the betterment of the App.",
         approchStepsno: 4,
@@ -501,7 +501,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Website development",
+        name: "Website Development",
         singleSubServiceTop_leftDetail:
           "A website may be outlined as a group of many webpages that square measure all associated with one another and might be accessed by visiting a homepage, employing a browser like net person, Mozilla, Google Chrome or Opera. During this tutorial, we are going to justify the conception of web site development, from the best to the foremost advanced.",
         approchStepsno: 4,
@@ -529,7 +529,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "PWA hybrid app development",
+        name: "PWA Hybrid App Development",
         singleSubServiceTop_leftDetail:
           "PWA (Progressive internet App) PWA is that the results of a singular cross-platform app development methodology that delivers websites put in on your phone through the mobile browser. It a hybrid of a native app and a mobile web site and uses commonplace internet technologies like CSS, HTML, associate degreed JavaScript to deliver an app-like user expertise.",
         approchStepsno: 5,
@@ -562,7 +562,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Software development",
+        name: "Software Development",
         singleSubServiceTop_leftDetail:
           "“Software development refers to a group of technology activities dedicated to the method of making, designing, deploying and supporting code.” code itself is that the set of directions or programs that tell a laptop what to try and do. It freelance of hardware and makes computers programmable.",
         approchStepsno: 6,
@@ -655,7 +655,7 @@ export const singleServiceData = [
     subServicesNo: 6,
     subServicesName: [
       {
-        name: "Smart vоiсe assistants",
+        name: "Smart Vоiсe Assistants",
         detail:
           "Smart Vоiсe Assistants is pretty useful personal vоiсe соmmаnd арр, which let you соntrоl your phone by vоiсe.",
         path: "/service/ML-AI/smartVA",
@@ -667,13 +667,13 @@ export const singleServiceData = [
         path: "/service/ML-AI/chаtbоts",
       },
       {
-        name: "Rоbоtiс рrосess аutоmаtiоn",
+        name: "Rоbоtiс Prосess Autоmаtiоn",
         detail:
-          "Rоbоtiс рrосess аutоmаtiоn (RРА), аlsо known is software rоbоtiсs, uses аutоmаtiоn teсhnоlоgies to mimic bасk-оffiсe tasks of human workers’, such as extrасting data, filling in forms, moving files, et сeterа. It mobiles АРIs and user interfered (UI) interасtiоns to integrates and рerfоrm repetitive tasks between enterprises and рrоduсtivity аррliсаtiоn.",
+          "Rоbоtiс Prосess Autоmаtiоn (RРА), аlsо known is software rоbоtiсs, uses аutоmаtiоn teсhnоlоgies to mimic bасk-оffiсe tasks of human workers’, such as extrасting data, filling in forms, moving files, et сeterа. It mobiles АРIs and user interfered (UI) interасtiоns to integrates and рerfоrm repetitive tasks between enterprises and рrоduсtivity аррliсаtiоn.",
         path: "/service/ML-AI/roboticProcessAuto",
       },
       {
-        name: "NLР gоаls",
+        name: "NLР Gоаls",
         detail:
           "NLР gоаls will help you find useful infоrmаtiоn quickly by individual ассess to instantly аnаlyze vast amounts of data. NLР gоаls and technique’s me into рlаy.",
         path: "/service/ML-AI/nlp",
@@ -691,7 +691,7 @@ export const singleServiceData = [
     ],
     subServicesPage: [
       {
-        name: "Smart vоiсe assistants",
+        name: "Smart Vоiсe Assistants",
         singleSubServiceTop_leftDetail:
           "Smart Vоiсe Assistants is pretty useful personal vоiсe соmmаnd арр, which let you соntrоl your phone by vоiсe. Think of the time you’ll save in tying and tаррing while you are working, studying or doing сreаtive/productive.",
         approchStepsno: 4,
@@ -748,7 +748,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Rоbоtiс рrосess аutоmаtiоn  ",
+        name: "Rоbоtiс Prосess Autоmаtiоn  ",
         singleSubServiceTop_leftDetail:
           "Rоbоtiс рrосess аutоmаtiоn (RРА), аlsо known is software rоbоtiсs, uses аutоmаtiоn teсhnоlоgies to mimic bасk-оffiсe tasks of human workers’, such as extrасting data, filling in forms, moving files, et сeterа. It mobiles АРIs and user interfered (UI) interасtiоns to integrates and рerfоrm repetitive tasks between enterprises and рrоduсtivity аррliсаtiоns. By deploying scripts which emulates human рrосesses, RРА tооls соmрlete аutоnоmоus execution of various titivates and trаnsасtiоns асrоss unrelated software systems. This forms of аutоmаtiоn uses rule-based software to рerfоrm business рrосess асtivities at а high-volumes, freeing up human resources to prioritizes more соmрlex tasks. RРА enables СIОs and other derision maker’s to ассelerаte their digital trаnsfоrmаtiоn efforts and generated а higher return on investment (RОI) from their staff.",
         approchStepsno: 4,
@@ -777,7 +777,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "NLР gоаls",
+        name: "NLР Gоаls",
         singleSubServiceTop_leftDetail:
           "NLР gоаls will help you find useful infоrmаtiоn quickly by individual ассess to instantly аnаlyze vast amounts of data. NLР tооls and technique’s me into рlаy. They will assists users in quickly саtegоrizing suрроrt tickets’ by subject, аllоwing you to seed up your рrосesses and deliver сritiсаl insight.",
         approchStepsno: 5,
@@ -859,25 +859,25 @@ export const singleServiceData = [
   },
   {
     id: 5,
-    name: "BlockChain & Cloud computing",
+    name: "BlockChain & Cloud Computing",
     url: "BlockChain&CloudComputing",
     singleServiceTopDetail: "",
     subServicesNo: 6,
     subServicesName: [
       {
-        name: "Application based on Block chain",
+        name: "Application Based On Block Chain",
         detail:
           "A block chain is a network that shares all the data among its peers, storing this data in block sequence.",
         path: "/service/BlockChain&CloudComputing/applications",
       },
       {
-        name: "Block database based database",
+        name: "Block Database Based Database",
         detail:
           "A Block chain-based database is a combination of traditional databases and a database where data is transacted and recorded via Database Interface (also known as Compute Interface) supported by multiple layers of block chain blocks.",
         path: "/service/BlockChain&CloudComputing/bdbd",
       },
       {
-        name: "Cloud mapping & migration",
+        name: "Cloud Mapping & Migration",
         detail:
           "Cloud migration is the process of moving data, applications or other business elements to a cloud computing environment. ... A third type of migration is a reverse cloud migration, cloud repatriation or cloud exit, where data or applications are moved off of the cloud and back to a local data center.",
         path: "/service/BlockChain&CloudComputing/cloudmap&mig",
@@ -901,7 +901,7 @@ export const singleServiceData = [
     ],
     subServicesPage: [
       {
-        name: "Application based on Block chain",
+        name: "Application Based On Block Chain",
         singleSubServiceTop_leftDetail:
           "A block chain is a network that shares all the data among its peers, storing this data in block sequence. This means that when something happens in a block chain network (for example, a transaction or data exchange), it is shared with all members of the network, and everyone has a record of this action on their devices.",
         approchStepsno: 4,
@@ -929,7 +929,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Block database based database",
+        name: "Block Database Based Database",
         singleSubServiceTop_leftDetail:
           "A Block chain-based database is a combination of traditional databases and a database where data is transacted and recorded via Database Interface (also known as Compute Interface) supported by multiple layers of block chain blocks. The database itself is shared in the form of an encrypted / fixed file that makes the data open to everyone.",
         approchStepsno: 4,
@@ -958,7 +958,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Cloud mapping & migration",
+        name: "Cloud Mapping & Migration",
         singleSubServiceTop_leftDetail: "",
         approchStepsno: 4,
         approchSteps: [
@@ -1067,32 +1067,32 @@ export const singleServiceData = [
   },
   {
     id: 6,
-    name: "Internet of things",
+    name: "Internet Of Things",
     url: "IOT",
     singleServiceTopDetail:
       "The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. These devices range from ordinary household objects to sophisticated industrial tools. With more than 7 billion connected IoT devices today, experts are expecting this number to grow to 10 billion by 2020 and 22 billion by 2025. Oracle has a network of device partners.",
     subServicesNo: 5,
     subServicesName: [
       {
-        name: "Hardware prototyping",
+        name: "Hardware Prototyping",
         detail:
           "Different types of hardware prototypes—sometimes known as “looks-like” prototypes --address the look-and-feel of a product whereas “works-like” prototypes demonstrate practicality. Every style of epitome works as a part of a technique to maneuver the planning into production.",
         path: "/service/IOT/hardwareProt",
       },
       {
-        name: "Hardware testing",
+        name: "Hardware Testing",
         detail:
           "a standard take a look at platform (CTP), conjointly known as Associate in Nursing open take a look at commonplace (OTS), may be a set of specifications shaping take a look at strategies for various parts of pc and electronic systems to be marketed as complete product.",
         path: "/service/IOT/hardwareTesting",
       },
       {
-        name: "Smart appliances",
+        name: "Smart Appliances",
         detail:
           "An appliance that features the intelligence and communications to change automatic or remote supported user preferences or external signals from a utility or third party energy service supplier.",
         path: "/service/IOT/smartAppliances",
       },
       {
-        name: "Secured routers",
+        name: "Secured Routers",
         detail:
           "Router security, however, involves protective the network itself by hardening or securing the routers. Specifically, it addresses preventing attackers from: exploitation routers to achieve info concerning your network to be used in associate degree attack (information leakage) disabling your routers (and so your network).",
         path: "/service/IOT/secRouter",
@@ -1111,7 +1111,7 @@ export const singleServiceData = [
     ],
     subServicesPage: [
       {
-        name: "Hardware prototyping",
+        name: "Hardware Prototyping",
         singleSubServiceTop_leftDetail:
           "Different types of hardware prototypes—sometimes known as “looks-like” prototypes --address the look-and-feel of a product whereas “works-like” prototypes demonstrate practicality. Every style of epitome works as a part of a technique to maneuver the planning into production.",
         approchStepsno: 4,
@@ -1139,7 +1139,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Hardware testing",
+        name: "Hardware Testing",
         singleSubServiceTop_leftDetail:
           "a standard take a look at platform (CTP), conjointly known as Associate in Nursing open take a look at commonplace (OTS), may be a set of specifications shaping take a look at strategies for various parts of pc and electronic systems to be marketed as complete product.",
         approchStepsno: 6,
@@ -1177,7 +1177,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Smart appliances",
+        name: "Smart Appliances",
         singleSubServiceTop_leftDetail:
           "An appliance that features the intelligence and communications to change automatic or remote supported user preferences or external signals from a utility or third party energy service supplier.",
         approchStepsno: 4,
@@ -1205,7 +1205,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "Secured routers",
+        name: "Secured Routers",
         singleSubServiceTop_leftDetail:
           "Router security, however, involves protective the network itself by hardening or securing the routers. Specifically, it addresses preventing attackers from: exploitation routers to achieve info concerning your network to be used in associate degree attack (information leakage) disabling your routers (and so your network).",
         approchStepsno: 5,
@@ -1238,7 +1238,7 @@ export const singleServiceData = [
         ],
       },
       {
-        name: "5G networking",
+        name: "5G Networking",
         singleSubServiceTop_leftDetail:
           "5G is that the fifth generation of cellular networks, and it's expected to be one in all the quickest wireless technologies ever created. ... 5G wireless technology means you will have faster downloads (imagine downloading a 4K motion-picture show in seconds instead of minutes) and large impacts on however you're employed and play.",
         approchStepsno: 5,

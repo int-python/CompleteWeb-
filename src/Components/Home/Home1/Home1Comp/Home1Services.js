@@ -17,7 +17,7 @@ function Home1Services() {
         <div className="home1ServicesBottomRow1">
           <Home1ServicesBottomCard
             Image="https://templatekit.jegtheme.com/syntra/wp-content/uploads/sites/7/2020/08/Asset-6@2x.png"
-            Heading="Cyber security"
+            Heading="Cyber Security"
             Detail="improvised solutions to detect gaps and optimize security standing."
             Path="/service/CyberSecurity"
           />
@@ -43,13 +43,13 @@ function Home1Services() {
           />
           <Home1ServicesBottomCard
             Image="https://templatekit.jegtheme.com/syntra/wp-content/uploads/sites/7/2020/08/Asset-11@2x.png"
-            Heading="Block chain & Cloud computing"
+            Heading="Block Chain & Cloud Computing"
             Detail="making your business processes transparent secure, accessible and scalable."
             Path="/service/BlockChain&CloudComputing"
           />
           <Home1ServicesBottomCard
             Image="https://templatekit.jegtheme.com/syntra/wp-content/uploads/sites/7/2020/08/Asset-10@2x.png"
-            Heading="Internet of things"
+            Heading="Internet Of Things"
             Detail="helps streamline internal and external workflow for maximum profits."
             Path="/service/IOT"
           />
