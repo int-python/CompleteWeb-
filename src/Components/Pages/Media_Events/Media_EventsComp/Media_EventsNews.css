@@ -1,0 +1,13 @@
+.media_eventsNews {
+  margin: 50px 0;
+}
+.media_eventsNewsHead {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.media_eventsNewsGrid {
+  display: flex;
+  justify-content: space-between;
+}

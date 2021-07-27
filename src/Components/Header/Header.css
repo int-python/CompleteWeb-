@@ -2,12 +2,13 @@
   padding-top: 10px;
   background: linear-gradient(320deg, #30b2ea 0%, #5355ee 100%);
 }
+.header_nav {
+  margin-bottom: -27px;
+}
 .header_leftLogo {
-  width: 18%;
+  width: 100%;
   height: auto;
-  max-width: 100%;
   margin-left: -7px;
-  margin-bottom: -7px;
 }
 .nav-link {
   color: #fff !important;

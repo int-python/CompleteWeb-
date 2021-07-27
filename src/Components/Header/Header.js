@@ -9,7 +9,7 @@ function Header(props) {
   return (
     <div className="header">
       <Navbar className="header_nav" collapseOnSelect expand="lg">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/" style={{ flex: 0.4 }}>
           <img src="/Images/Logo/Logo.png" alt="" className="header_leftLogo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -25,6 +25,9 @@ function Header(props) {
               <NavDropdown.Item href="/aboutUs">About Us</NavDropdown.Item>
               <NavDropdown.Item href="/ourTeam">Our Team</NavDropdown.Item>
               <NavDropdown.Item href="/pricing">Pricing</NavDropdown.Item>
+              <NavDropdown.Item href="/media_events">
+                Media_Events
+              </NavDropdown.Item>
               <NavDropdown.Item href="/error">404</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/services">Services</Nav.Link>

@@ -1,0 +1,41 @@
+.media_eventNewsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fdfdfd;
+}
+.media_eventNewsCardTag {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #7e7e7e;
+}
+.media_eventNewsCardImg {
+  width: 250px;
+  height: auto;
+}
+.media_eventNewsCardDetail {
+  font-size: 14px;
+  width: 90%;
+}
+.media_eventNewsCardButton {
+  font-size: 16px;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.media_eventNewsCardButton:hover {
+  -webkit-transform: translateX(8px);
+  transform: translateX(8px);
+}

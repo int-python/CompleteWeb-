@@ -14,7 +14,7 @@ import "react-modal-video/scss/modal-video.scss";
 import SingleService from "./Components/Pages/Services/ServicesComp/SingleService";
 import SingleBlog from "./Components/Pages/BlogPage/SingleBlog/SingleBlog";
 import SingleSubService from "./Components/Pages/Services/ServicesComp/SingleSubService";
-import singleServiceData from "./data";
+import Media_Events from "./Components/Pages/Media_Events/Media_Events";
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/blogs" component={BlogPage} />
           <Route exact path="/singleBlog" component={SingleBlog} />
           <Route exact path="/contact1" component={Contact1} />
-          {/* <Route exact path="/service/:id" component={SingleService} /> */}
+          <Route exact path="/media_events" component={Media_Events} />
           <Route exact path="/service/:url" component={SingleService} />
           <Route
             exact
